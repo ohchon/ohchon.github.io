@@ -1,0 +1,48 @@
+# How to connect
+### 1. 접속할 인스턴스의 22번 포트가 열려있어야합니다. (이미 열려있을 것 입니다.)   
+     해당하는 인스턴스의 인스턴스 ID 클릭 > 보안 > 보안 그룹 > 인바운드 규칙 편집 
+
+![image](https://user-images.githubusercontent.com/90609214/150672216-ea1b6090-fb4c-4766-880b-8288ccececa6.png)
+
+     SSH(Secure Shell Protocol): 다른 컴퓨터에 접속할 때 쓰는 프로그램 (다른 것들 보다 보안이 상대적으로 뛰어납니다.)
+
+
+### 2. 포트설정해줍니다. (그냥 연결만 할 것이면 5번하고 하셔도 됩니다.)
+
+1.     해당하는 인스턴스의 인스턴스 ID 클릭 > 보안 > 보안 그룹 > 인바운드 규칙 편집
+
+2.     아래 사진처럼 만들어 줍니다. 
+![image](https://user-images.githubusercontent.com/90609214/150672475-bb637f6b-d6f8-4ee0-8708-907569443d86.png)
+     
+     80포트: HTTP 접속을 위한 기본포트
+
+     8080포트: 스프링 부트 기본포트
+
+### 3.접속하기 
+
+1.    Mac은 ssh가 있어서, 터미널에서 명령어로 바로 접근 가능하지만 윈도우는 없으므로, git bash라는 프로그램을 이용.
+      
+#### Mac용
+2.   구매할 때 다운받은 키페어의 접근권한 바꿔주기(맥에서만)(처음 한번만 하면됌)
+
+          sudo chmod 400 받은키페어를끌어다놓기(주소 들어갈거임)  
+          
+          EX: sudo chmod 400 /Users/asasas/Desktop/키페어.pem
+
+3.   접속
+     
+          ssh -i 받은키페어를끌어다놓기 ubuntu@AWS에적힌내아이피(인스턴스 세부정보 중에서 퍼블릭 IPv4 주소)
+
+          EX: ssh -i /Users/asasas/Desktop/키페어.pem ubuntu@13.125.250.20
+    
+#### Window용
+
+2.   접속
+     
+          ssh -i 받은키페어를끌어다놓기 ubuntu@AWS에적힌내아이피(인스턴스 세부정보 중에서 퍼블릭 IPv4 주소 찾기)
+
+          EX: ssh -i /Users/asasas/Desktop/키페어.pem ubuntu@13.125.250.20
+     
+3.   Key fingerprint 관련 메시지가 나올 경우 Yes를 입력
+     
+4.   git bash를 종료할 때는 exit 명령어를 입력하여 ssh 접속을 먼저 끊기
