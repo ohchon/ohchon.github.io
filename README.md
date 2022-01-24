@@ -1,7 +1,11 @@
 # ohchon.github.io
 
-개발을 하면서 썻거나 배운 모든 것을 기억하여 바로 현업에 쓰는 것은 누군가한태 가능은 하겠지만 무척 힘든일이라고 생각합니다.  
+it may be possible for someone to remember everything they wrote or learned during development and to use it directly on the field, but I think it's very difficult.
 
-제가 이 리포지토리 또는 블로그를 만든 이유는 무엇보다도 저를 위한 것 입니다. 제가 썻던 기술 밑 배운 것들은 다시 상기하여 필요할 때 쓰기 위하여 만들었습니다. 
+Above all, the reason why I created this repository or blog is for me.
 
-현재로써 이쁘지도 않고 게시글도 많지 않지만 매일매일 업데이트 하여 발전시키겠습니다. 감사합니다. 
+I made it to remind myself of what I have experienced and learned and use it when needed.
+
+Currently, it is not pretty and there are not many posts, but I will update and develop it every day. 
+
+Thank you.
