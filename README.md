@@ -1,6 +1,6 @@
 # ohchon.github.io
 
-it may be possible for someone to remember everything they wrote or learned during development and to use it directly on the field, but I think it's very difficult.
+It may be possible for someone to remember everything they wrote or learned during development and to use it directly on the field, but I think it's very difficult.
 
 Above all, the reason why I created this repository or blog is for me.
 
