@@ -30,9 +30,10 @@ https://ap-northeast-2.console.aws.amazon.com/rds/home?region=ap-northeast-2#dat
 8. src > main > resources > application.properties 파일 열기
 
 9. 아래코드 붙혀넣기
-    spring.datasource.url=jdbc:mysql://나의엔드포인트:3306/myselectshop
-    spring.datasource.username=나의USERNAME
-    spring.datasource.password=나의패스워드
-    spring.jpa.hibernate.ddl-auto=update
-    
+
+        spring.datasource.url=jdbc:mysql://나의엔드포인트:3306/myselectshop
+        spring.datasource.username=나의USERNAME
+        spring.datasource.password=나의패스워드
+        spring.jpa.hibernate.ddl-auto=update
+
     
