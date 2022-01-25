@@ -1,4 +1,4 @@
-# H2
+# What is H2
 1. MySQL처럼 관계형 데이터베이스입니다. 
 
 2. In-memory DB입니다. 
