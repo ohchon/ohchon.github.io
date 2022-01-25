@@ -1,4 +1,4 @@
-# Setting with Spring 
+# How to set with Spring 
 
 1. src > main > resources > application.properties 파일 열기
 
