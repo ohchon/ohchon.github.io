@@ -1,0 +1,38 @@
+1. 아래 URL로 이동합니다.
+
+https://ap-northeast-2.console.aws.amazon.com/rds/home?region=ap-northeast-2#databases:
+
+2. 해당하는 DB 클릭하고 엔드포인트 확인 후 드래그하여 복사합니다. 
+
+![image](https://user-images.githubusercontent.com/90609214/150951401-d771659d-a90b-4f93-a947-6ace313a2581.png)
+
+3. 인텔리제이 접속
+
+4. 우측 Database 탭을 클릭합니다.
+
+5. Data Source > MySQL 을 클릭합니다. (제일 상단이 아니라면 중간 즈음 있을 거에요!)
+
+![image](https://user-images.githubusercontent.com/90609214/150951773-9dca5fc6-df1f-4548-a94a-95f97cb58bbb.png)
+
+6. 다음과 같이 입력합니다.
+- Name: DB식별자(1번 부분 들어가시면 바로 나올 겁니다.)
+- Host: 나의 엔드포인트
+- User: 나의 Username
+- Password: 나의 비밀번호
+- Database: 초기데이터베이스 이름을 넣어줍니다.(AWS에서 설정할때 추가구성 부분에 넣었던 이름)
+
+![image](https://user-images.githubusercontent.com/90609214/150951909-5bdbed47-a94c-4e7d-90a5-385227256d6b.png)
+
+7. Test Connection 을 클릭하고, 아래와 같이 성공적으로 연결되면 OK 를 클릭합니다.
+
+![image](https://user-images.githubusercontent.com/90609214/150952784-abafce1c-6373-4300-820e-2cff70f362ef.png)
+
+8. src > main > resources > application.properties 파일 열기
+
+9. 아래코드 붙혀넣기
+    spring.datasource.url=jdbc:mysql://나의엔드포인트:3306/myselectshop
+    spring.datasource.username=나의USERNAME
+    spring.datasource.password=나의패스워드
+    spring.jpa.hibernate.ddl-auto=update
+    
+    
