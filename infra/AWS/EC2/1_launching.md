@@ -7,16 +7,27 @@
     https://ap-northeast-2.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2
 
 ### 2. "Launch Instance" 또는 "인스턴스 시작" 버튼 클릭합니다. 
-      
-   ![image](https://user-images.githubusercontent.com/90609214/150671461-00b7bef5-22dd-4139-a351-8adaf6ef28b9.png)
+![image](https://user-images.githubusercontent.com/90609214/150926007-4f75a314-c171-4c23-acac-aa033474eaf4.png)
+
+or
+
+![image](https://user-images.githubusercontent.com/90609214/150926269-5d3ed4d2-308f-4c57-9eeb-fdf5a0cb2e53.png)
+
 
 ### 3. "Ubuntu Server 18.04"를 선택하고 "Select" 또는 "선택"버튼 클릭합니다. 
+![image](https://user-images.githubusercontent.com/90609214/150926386-1d9d80c9-0341-4278-aa17-8781b8407e20.png)
 
-   ![image](https://user-images.githubusercontent.com/90609214/150671487-c8cc8924-cc5f-4c0c-9abd-811ece809b57.png)
+or
+
+![image](https://user-images.githubusercontent.com/90609214/150671487-c8cc8924-cc5f-4c0c-9abd-811ece809b57.png)
 
 ### 4. Instance Type으로 t2.micro 선택하고 "Review and Launch" 또는 "검토 및 시작" 버튼 클릭합니다. 
 
-   ![image](https://user-images.githubusercontent.com/90609214/150671546-3f120e7c-3904-4d11-a72e-93a0e219c4ff.png)
+![image](https://user-images.githubusercontent.com/90609214/150926497-3d68157b-e466-46f4-b661-bfa679117673.png)
+
+or
+
+![image](https://user-images.githubusercontent.com/90609214/150671546-3f120e7c-3904-4d11-a72e-93a0e219c4ff.png)
 
 ### 5. 4번하고나면 간단한 확인 작업 있을 건데 "시작" 또는 "Launch" 클릭합니다. 
       
