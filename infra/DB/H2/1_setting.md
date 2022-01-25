@@ -1,4 +1,4 @@
-### 스프링용
+# Setting with Spring 
 
 1. src > main > resources > application.properties 파일 열기
 
